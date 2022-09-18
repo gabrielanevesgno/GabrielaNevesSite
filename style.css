@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, rgb(229, 0, 255), rgb(70, 235, 255));
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 60px;
+}
+
+.cabecalho-menu-item {
+  font-family: "Raleway", sans-serif;
+  color: midnightblue;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.conteudo {
+  margin-bottom: 60px;
+  border-top: 0.8px solid #4757f6;
+  /* min-height: 100vh; */
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: ghostwhite;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  font-size: 24px;
+  color: ghostwhite;
+}
+
+.conteudo-principal-escrito-botao {
+  background-color: ghostwhite;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px, rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  font-size: 24px;
+  color: black;
+}
+.conteudo-principal-escrito-botao:hover {
+  background-color: #da96e2;
+}
+.conteudo-principal-imagem {
+  height: 430px;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 08px;
+  margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+  border-top: 0.4px solid #4757f6;
+  padding-top: 48px;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  font-size: 24px;
+  color: ghostwhite;
+  margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+  font-family: "Inconsolata", monospace;
+  font-weight: 300;
+  font-size: 18px;
+  color: ghostwhite;
+}
+
+.rodape {
+  padding: 32px;
+  border-top: 0.4px solid #4757f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape-paragrafo {
+  padding-top: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.rodape-icones {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
+
+.texto {
+  color: WHITE;
+}
+
+#rod {
+  background-color: unset;
+}
